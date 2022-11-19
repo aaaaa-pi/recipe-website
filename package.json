@@ -1,0 +1,20 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel bulid index.html --dist-dir ./dist"
+  },
+  "author": "Eureka",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0-beta.1",
+    "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "fractional": "^1.0.0"
+  }
+}
